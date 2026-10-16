@@ -1,0 +1,9 @@
+;BA;BB;UA;UB;UA-;UA+;UB-;UB+
+BA;;mouvement + aliment + transformation;amour + aliment + emotion;corps + aliment + protection;amour + froid + aliment;amour + aliment;froid + aliment;chaud + aliment
+BB;mouvement + aliment + transformation;;soleil + transformation + emotion;rejet + transformation + protection;soleil + amour + froid + transformation;peur + transformation;rejet + froid + transformation;rejet + chaud + transformation
+UA;amour + aliment + emotion;soleil + transformation + emotion;;symptome + emotion + protection;froid + emotion;peur + emotion;morose + froid + emotion;chaud + emotion + morose
+UB;corps + aliment + protection;rejet + transformation + protection;symptome + emotion + protection;;nouveaute + froid + protection;protection;froid + protection;chaud + protection
+UA-;amour + froid + aliment;soleil + amour + froid + transformation;froid + emotion;nouveaute + froid + protection;;degout + froid;symptome + froid;corps
+UA+;amour + aliment;peur + transformation;peur + emotion;protection;degout + froid;;symptome;symptome + chaud
+UB-;froid + aliment;rejet + froid + transformation;morose + froid + emotion;froid + protection;symptome + froid;symptome;;degout
+UB+;aliment + chaud;rejet + chaud + transformation;chaud + emotion + morose;chaud + protection;corps;symptome + chaud;degout;
