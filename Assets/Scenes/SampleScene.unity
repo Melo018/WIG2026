@@ -450,6 +450,10 @@ GameObject:
   - component: {fileID: 749402121}
   - component: {fileID: 749402120}
   - component: {fileID: 749402122}
+  - component: {fileID: 749402123}
+  - component: {fileID: 749402124}
+  - component: {fileID: 749402125}
+  - component: {fileID: 749402126}
   m_Layer: 0
   m_Name: test
   m_TagString: Untagged
@@ -491,11 +495,59 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 749402119}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0439c5c3dee7e74586d06315e1b8916, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RecipeCsvParserTest
+--- !u!114 &749402123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749402119}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d7afe59f360fb34980cf033a677f260, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MatrixLoaderTest
+--- !u!114 &749402124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749402119}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 807b2ae613ec17d4fa796751bcb7b157, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PotionTagCalculatorTest
+--- !u!114 &749402125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749402119}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0363652e98c64e7429cabf8004e8aef4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PotionServiceTest
+--- !u!114 &749402126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749402119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c7c583d2a4be994a8c661aa33abb69c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TagSpriteLoaderTest
 --- !u!1 &1324474058
 GameObject:
   m_ObjectHideFlags: 0
