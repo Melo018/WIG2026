@@ -10,6 +10,8 @@ public class PotionServiceTest : MonoBehaviour
         var registry = new RecipeRegistry(recipeData);
         var service = new PotionService(associations, registry);
         PotionData potion = service.CreatePotion("BA", "UA", "UB");
+        TagSpriteLoader.LoadAll();
+        GetComponent<PotionTagDisplay>().Display(potion);
 
         Debug.Log("Ingrédients : " + string.Join(", ", potion.Ingredients));
         Debug.Log("Tags : " + string.Join(", ", potion.Tags));

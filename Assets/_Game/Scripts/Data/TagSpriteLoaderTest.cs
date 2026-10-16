@@ -1,16 +1,12 @@
+
 using UnityEngine;
 
 public class TagSpriteLoaderTest : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        TagSpriteLoader.LoadAll();
+        Debug.Log("Sprite chaud : " + (TagSpriteLoader.GetSprite("chaud") != null));
+        Debug.Log("Sprite emotion : " + (TagSpriteLoader.GetSprite("emotion") != null));
     }
 }
