@@ -20,7 +20,50 @@ public class PotionCreationController : MonoBehaviour
 
         if (inventory == null)
             inventory = FindFirstObjectByType<IngredientInventory>();
+
+        alchemy = new AlchemyService(clientId);
     }
+
+    
+    public void SetClient(string newClientId)
+    {
+        if (string.IsNullOrWhiteSpace(newClientId))
+        {
+            Debug.LogWarning("Identifiant client vide.");
+            return;
+        }
+
+        try
+        {
+            AlchemyService newAlchemy = new AlchemyService(newClientId);
+            clientId = newClientId;
+            alchemy = newAlchemy;
+
+            if (ingredientSlots != null)
+            {
+                foreach (IngredientDropSlot slot in ingredientSlots)
+                {
+                    if (slot != null)
+                        slot.Clear();
+                }
+            }
+
+            if (tagDisplay != null)
+                tagDisplay.Display(null);
+
+            UpdateValidationButton();
+
+            Debug.Log("CSV chargé pour le client : " + newClientId);
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogError(
+                "Impossible de charger le CSV du client " +
+                newClientId + " : " + e.Message
+            );
+        }
+    }
+
 
     void OnEnable()
     {
