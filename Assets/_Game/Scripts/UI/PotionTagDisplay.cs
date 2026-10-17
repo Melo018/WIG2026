@@ -13,6 +13,9 @@ public class PotionTagDisplay : MonoBehaviour
         foreach (Transform child in tagContainer)
             Destroy(child.gameObject);
 
+        if (potion == null)
+            return;
+
         foreach (string tag in potion.Tags)
         {
             Sprite sprite = TagSpriteLoader.GetSprite(tag);
