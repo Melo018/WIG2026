@@ -1,5 +1,95 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-7877909545657436057
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TwoFaced5_{-7877909545657436057}
+  m_AudioClip: {fileID: 8300000, guid: 56827dee79e42bd42afa3cb45e21411e, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-6542335184891257718
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TwoFaced9_{-6542335184891257718}
+  m_AudioClip: {fileID: 8300000, guid: dc38984346bcf574a9953a6dc917f04a, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5234016740814921201
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TwoFaced8_{-5234016740814921201}
+  m_AudioClip: {fileID: 8300000, guid: 4aeb0b7cfc0814f43b71a201f54cb1ff, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2961249560337142129
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TwoFaced10_{-2961249560337142129}
+  m_AudioClip: {fileID: 8300000, guid: cffa56fea339b1d4bb6f02309361339c, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2339067652865482858
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TwoFaced4_{-2339067652865482858}
+  m_AudioClip: {fileID: 8300000, guid: 7217f63195d5e6d46916decd3cc36716, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-682552535664204740
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TwoFaced6_{-682552535664204740}
+  m_AudioClip: {fileID: 8300000, guid: 29e5105a52b7ab546ac29993ab102127, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &557741099279681236
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TwoFaced11_{557741099279681236}
+  m_AudioClip: {fileID: 8300000, guid: 9d0be2b1c77bf604ca965f386bb2dddc, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1670804152554975630
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TwoFaced3_{1670804152554975630}
+  m_AudioClip: {fileID: 8300000, guid: 61b6e828a9cc5d54f9f06681e68b46d3, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5889954599906694649
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TwoFaced7_{5889954599906694649}
+  m_AudioClip: {fileID: 8300000, guid: 7cbc17d3d31ae9647a076bd8a83d6b37, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
 --- !u!1307931743 &6418180475301049370
 AudioRandomContainer:
   m_ObjectHideFlags: 0
@@ -9,19 +99,61 @@ AudioRandomContainer:
   m_Name: Voix_B
   m_Volume: 0
   m_Pitch: 0
-  m_AutomaticTriggerTime: 0
+  m_AutomaticTriggerTime: 0.1
   m_LoopCount: 1
   m_VolumeRandomizationRange: {x: 0, y: 0}
   m_PitchRandomizationRange: {x: 0, y: 0}
-  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0.3}
   m_LoopCountRandomizationRange: {x: 0, y: 0}
-  m_Elements: []
-  m_AvoidRepeatingLast: 0
-  m_PlaybackMode: 0
+  m_Elements:
+  - {fileID: 6723406917943375911}
+  - {fileID: 8336401603406724070}
+  - {fileID: 1670804152554975630}
+  - {fileID: -2339067652865482858}
+  - {fileID: -7877909545657436057}
+  - {fileID: -682552535664204740}
+  - {fileID: 5889954599906694649}
+  - {fileID: -5234016740814921201}
+  - {fileID: -6542335184891257718}
+  - {fileID: -2961249560337142129}
+  - {fileID: 557741099279681236}
+  - {fileID: 8420336695777842726}
+  m_AvoidRepeatingLast: 2
+  m_PlaybackMode: 2
   m_TriggerMode: 1
   m_AutomaticTriggerMode: 1
-  m_LoopMode: 2
+  m_LoopMode: 0
   m_VolumeRandomizationEnabled: 0
   m_PitchRandomizationEnabled: 0
-  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 1
   m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &6723406917943375911
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TwoFaced1_{6723406917943375911}
+  m_AudioClip: {fileID: 8300000, guid: eb3d76225fcba9848bcba347c20f4930, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &8336401603406724070
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TwoFaced2_{8336401603406724070}
+  m_AudioClip: {fileID: 8300000, guid: ce264e85af7ff714c994a31fc1b58e96, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &8420336695777842726
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TwoFaced12_{8420336695777842726}
+  m_AudioClip: {fileID: 8300000, guid: 6a7a7894a2ba6744e970b4e2d36c7a5b, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
