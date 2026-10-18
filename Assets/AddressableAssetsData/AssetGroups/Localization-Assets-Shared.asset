@@ -14,12 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
   m_GroupName: Localization-Assets-Shared
   m_GUID: 5274309e4f1ecd14fbe1daadacbdaa0f
-  m_SerializeEntries:
-  - m_GUID: 98ab1c43c2d43c0408cbc59780ac46fc
-    m_Address: Assets/Localization/StartMenu Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 93036d7ef0ba4e54e8f5ba2e7d0b68a7, type: 2}
   m_SchemaSet:
@@ -27,3 +22,22 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 36c7090df4c89f1499c5215758582323, type: 2}
     - {fileID: 11400000, guid: 450b40731a14fe842a04dab6e4b8698b, type: 2}
     - {fileID: 11400000, guid: 90d003e728a4d1246a3ed1ebaa200388, type: 2}
+  m_FolderEntryCache: []
+  <FlaggedDuringContentUpdateRestriction>k__BackingField: 0
+  m_CurrentHash:
+    'bytes[0]': 0
+    'bytes[1]': 0
+    'bytes[2]': 0
+    'bytes[3]': 0
+    'bytes[4]': 0
+    'bytes[5]': 0
+    'bytes[6]': 0
+    'bytes[7]': 0
+    'bytes[8]': 0
+    'bytes[9]': 0
+    'bytes[10]': 0
+    'bytes[11]': 0
+    'bytes[12]': 0
+    'bytes[13]': 0
+    'bytes[14]': 0
+    'bytes[15]': 0
