@@ -1,0 +1,665 @@
+fileFormatVersion: 2
+guid: ff6be120c703a8d4f854daa28d0cb2a7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2571689456339465026
+    second: OpenStoreButtonSprite_0
+  - first:
+      213: -849596343874943698
+    second: OpenStoreButtonSprite_1
+  - first:
+      213: -3419800402529676032
+    second: OpenStoreButtonSprite_2
+  - first:
+      213: -2251359948452861544
+    second: OpenStoreButtonSprite_3
+  - first:
+      213: 6177841506927844519
+    second: OpenStoreButtonSprite_4
+  - first:
+      213: 4815954452850357334
+    second: OpenStoreButtonSprite_5
+  - first:
+      213: 2502638858349268377
+    second: OpenStoreButtonSprite_6
+  - first:
+      213: 274188582466394827
+    second: OpenStoreButtonSprite_7
+  - first:
+      213: 2175999406868212611
+    second: OpenStoreButtonSprite_8
+  - first:
+      213: 1140515074341012005
+    second: OpenStoreButtonSprite_9
+  - first:
+      213: -3616494719418230373
+    second: OpenStoreButtonSprite_10
+  - first:
+      213: 1437028107016649367
+    second: OpenStoreButtonSprite_11
+  - first:
+      213: -3359255561307465215
+    second: OpenStoreButtonSprite_12
+  - first:
+      213: -6047138635238076330
+    second: OpenStoreButtonSprite_13
+  - first:
+      213: 1380031141463315592
+    second: OpenStoreButtonSprite_14
+  - first:
+      213: -3843530129893085773
+    second: OpenStoreButtonSprite_15
+  - first:
+      213: -5363385119084483680
+    second: OpenStoreButtonSprite_16
+  - first:
+      213: 7277369901139225434
+    second: OpenStoreButtonSprite_17
+  - first:
+      213: 1911479791640238213
+    second: OpenStoreButtonSprite_18
+  - first:
+      213: 93404844298934166
+    second: OpenStoreButtonSprite_19
+  - first:
+      213: 7787448677849937643
+    second: OpenStoreButtonSprite_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OpenStoreButtonSprite_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 3722
+        height: 1335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2433bb56fe970b320800000000000000
+      internalID: 2571689456339465026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenStoreButtonSprite_1
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1322
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e250dd860a0a534f0800000000000000
+      internalID: -849596343874943698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenStoreButtonSprite_2
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1321
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0051b7c17ad6a80d0800000000000000
+      internalID: -3419800402529676032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenStoreButtonSprite_3
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 1322
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899ecea1e0091c0e0800000000000000
+      internalID: -2251359948452861544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenStoreButtonSprite_4
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1328
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac19137e1a1cb550800000000000000
+      internalID: 6177841506927844519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenStoreButtonSprite_5
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 1322
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6543b901f05b5d240800000000000000
+      internalID: 4815954452850357334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenStoreButtonSprite_6
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 1328
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d4ff838c82bb220800000000000000
+      internalID: 2502638858349268377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenStoreButtonSprite_7
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 1321
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca9063201d1ec300800000000000000
+      internalID: 274188582466394827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenStoreButtonSprite_8
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 1326
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b27dd7ee3b23e10800000000000000
+      internalID: 2175999406868212611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenStoreButtonSprite_9
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1326
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522031bda6ce3df00800000000000000
+      internalID: 1140515074341012005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenStoreButtonSprite_10
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1326
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b991005b631afcdc0800000000000000
+      internalID: -3616494719418230373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenStoreButtonSprite_11
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 1326
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79abafa137951f310800000000000000
+      internalID: 1437028107016649367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenStoreButtonSprite_12
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 1321
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a53867dd68161d0800000000000000
+      internalID: -3359255561307465215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenStoreButtonSprite_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 811
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650181b437f341ca0800000000000000
+      internalID: -6047138635238076330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenStoreButtonSprite_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 753
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884d5ede20bd62310800000000000000
+      internalID: 1380031141463315592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenStoreButtonSprite_15
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 735
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd2634f5b909aac0800000000000000
+      internalID: -3843530129893085773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenStoreButtonSprite_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 695
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab6a5f86ad6195b0800000000000000
+      internalID: -5363385119084483680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenStoreButtonSprite_17
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 678
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5be5803e596ef460800000000000000
+      internalID: 7277369901139225434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenStoreButtonSprite_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 620
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588dd083eb0f68a10800000000000000
+      internalID: 1911479791640238213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenStoreButtonSprite_19
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 562
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6971db40637db4100800000000000000
+      internalID: 93404844298934166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenStoreButtonSprite_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 504
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6b4d51053921c60800000000000000
+      internalID: 7787448677849937643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      OpenStoreButtonSprite_0: 2571689456339465026
+      OpenStoreButtonSprite_1: -849596343874943698
+      OpenStoreButtonSprite_10: -3616494719418230373
+      OpenStoreButtonSprite_11: 1437028107016649367
+      OpenStoreButtonSprite_12: -3359255561307465215
+      OpenStoreButtonSprite_13: -6047138635238076330
+      OpenStoreButtonSprite_14: 1380031141463315592
+      OpenStoreButtonSprite_15: -3843530129893085773
+      OpenStoreButtonSprite_16: -5363385119084483680
+      OpenStoreButtonSprite_17: 7277369901139225434
+      OpenStoreButtonSprite_18: 1911479791640238213
+      OpenStoreButtonSprite_19: 93404844298934166
+      OpenStoreButtonSprite_2: -3419800402529676032
+      OpenStoreButtonSprite_20: 7787448677849937643
+      OpenStoreButtonSprite_3: -2251359948452861544
+      OpenStoreButtonSprite_4: 6177841506927844519
+      OpenStoreButtonSprite_5: 4815954452850357334
+      OpenStoreButtonSprite_6: 2502638858349268377
+      OpenStoreButtonSprite_7: 274188582466394827
+      OpenStoreButtonSprite_8: 2175999406868212611
+      OpenStoreButtonSprite_9: 1140515074341012005
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
