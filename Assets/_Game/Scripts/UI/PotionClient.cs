@@ -2,19 +2,29 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using TMPro;
 
 public class PotionClient : MonoBehaviour, IDropHandler
 {
+    [Header("Dialogues")]
+    [SerializeField] private DialogueLine[] firstVisitLines;
+    [SerializeField] private DialogueLine[] returnVisitLines;
+    [SerializeField] private DialogueLine[] goodReactionLines;
+    [SerializeField] private DialogueLine[] badReactionLines;
+    [SerializeField] private DialogueLine[] savedLines;
+    [SerializeField] private DialogueLine[] lostLines;
+
+    [Header("Audio")]
     [SerializeField] private AudioClip[] goodSounds;
     [SerializeField] private AudioClip[] badSounds;
+
+    [Header("References")]
     [SerializeField] private ClientMorality clientMorality;
     [SerializeField] private ClientRewardService rewardService;
     [SerializeField] private ClientGameManager gameManager;
-    [SerializeField] private TMP_Text dialogueText;
-    [SerializeField] private float reactionDuration = 2f;
+    [SerializeField] private ClientDialogue clientDialogue;
 
     private bool isReacting;
+    private bool hasVisitedBefore;
 
     private void Awake()
     {
@@ -27,8 +37,29 @@ public class PotionClient : MonoBehaviour, IDropHandler
         if (gameManager == null)
             gameManager = FindFirstObjectByType<ClientGameManager>();
 
-        if (dialogueText == null)
-            dialogueText = GetComponentInChildren<TMP_Text>(true);
+        if (clientDialogue == null)
+            clientDialogue = GetComponentInChildren<ClientDialogue>(true);
+    }
+
+    private void OnEnable()
+    {
+        if (isReacting || clientDialogue == null)
+            return;
+
+        StartCoroutine(ShowVisitDialogue());
+    }
+
+    private IEnumerator ShowVisitDialogue()
+    {
+        isReacting = true;
+
+        DialogueLine[] lines = hasVisitedBefore
+            ? returnVisitLines
+            : firstVisitLines;
+
+        yield return StartCoroutine(clientDialogue.PlayLines(lines));
+
+        isReacting = false;
     }
 
     public void OnDrop(PointerEventData eventData)
@@ -71,9 +102,6 @@ public class PotionClient : MonoBehaviour, IDropHandler
 
         bool thresholdReached = clientMorality.ApplyPotionResult(result);
 
-        if (dialogueText != null)
-            dialogueText.text = goodResult ? "Merci !" : "Je ne reviendrai pas !";
-
         if (AudioManager.Instance != null)
         {
             AudioManager.Instance.PlayRandomSFX(
@@ -81,25 +109,23 @@ public class PotionClient : MonoBehaviour, IDropHandler
             );
         }
 
-        Debug.Log(
-            gameObject.name + " reçoit " + result +
-            ". Moralité : " + clientMorality.Morality
-        );
+        DialogueLine[] reactionLines = goodResult
+            ? goodReactionLines
+            : badReactionLines;
 
-        yield return new WaitForSeconds(reactionDuration);
+        if (clientDialogue != null)
+            yield return StartCoroutine(clientDialogue.PlayLines(reactionLines));
+
+        hasVisitedBefore = true;
 
         if (thresholdReached)
         {
             bool saved = clientMorality.Morality == 3;
 
-            if (dialogueText != null)
-            {
-                dialogueText.text = saved
-                    ? "Tu m'as sauvé ! Merci !"
-                    : "Je suis perdu à jamais...";
-            }
+            DialogueLine[] endingLines = saved ? savedLines : lostLines;
 
-            yield return new WaitForSeconds(reactionDuration);
+            if (clientDialogue != null)
+                yield return StartCoroutine(clientDialogue.PlayLines(endingLines));
 
             if (gameManager != null)
                 gameManager.ResolveCurrentClient(saved);

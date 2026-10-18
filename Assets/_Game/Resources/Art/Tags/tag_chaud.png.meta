@@ -5,9 +5,6 @@ TextureImporter:
   - first:
       213: 2649556149061831517
     second: tag_chaud_0
-  - first:
-      213: -7140991132770730916
-    second: tag_chaud_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -101,6 +98,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -108,10 +118,10 @@ TextureImporter:
       name: tag_chaud_0
       rect:
         serializedVersion: 2
-        x: 182
-        y: 46
-        width: 149
-        height: 357
+        x: 0
+        y: 0
+        width: 180
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -122,28 +132,6 @@ TextureImporter:
       bones: []
       spriteID: d5b4845974d15c420800000000000000
       internalID: 2649556149061831517
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tag_chaud_1
-      rect:
-        serializedVersion: 2
-        x: 302
-        y: 341
-        width: 65
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c5c7cfa366a16ec90800000000000000
-      internalID: -7140991132770730916
       vertices: []
       indices: 
       edges: []
@@ -163,7 +151,6 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       tag_chaud_0: 2649556149061831517
-      tag_chaud_1: -7140991132770730916
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
