@@ -1,45 +1,44 @@
 
-using System.Collections;
-using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
+using UnityEngine;
 
 public class ClientDialogue : MonoBehaviour
 {
-    [Header("References")]
+    [SerializeField] private GameObject dialogueBackground;
     [SerializeField] private TMP_Text dialogueText;
-    [SerializeField] private Button continueButton;
+    [SerializeField] private string[] phrases;
 
-    private void Awake()
+    private int currentIndex;
+
+    public void ShowNextPhrase()
     {
-        if (dialogueText == null)
-            dialogueText = GetComponentInChildren<TMP_Text>(true);
+        if (phrases == null || phrases.Length == 0 || dialogueText == null)
+        {
+            HideDialogue();
+            return;
+        }
 
-        if (continueButton != null)
-            continueButton.onClick.AddListener(CloseDialogue);
-        else
-            Debug.LogError("ClientDialogue : bouton Continuer non assigné.", this);
+        if (currentIndex >= phrases.Length)
+        {
+            HideDialogue();
+            return;
+        }
+
+        dialogueText.text = phrases[currentIndex];
+        currentIndex++;
     }
 
-    private void Start()
+    public void ResetDialogue()
     {
+        currentIndex = 0;
+
         if (dialogueText != null)
-            dialogueText.text = "Hi Asmodel, I want a potion";
+            dialogueText.text = "";
     }
 
-    private void CloseDialogue()
+    private void HideDialogue()
     {
-        gameObject.SetActive(false);
-    }
-
-    public IEnumerator PlayLines(DialogueLine[] lines)
-    {
-        yield break;
-    }
-
-    private void OnDestroy()
-    {
-        if (continueButton != null)
-            continueButton.onClick.RemoveListener(CloseDialogue);
+        if (dialogueBackground != null)
+            dialogueBackground.SetActive(false);
     }
 }
