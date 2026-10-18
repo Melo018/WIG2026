@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-7877909545657436057
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Vampire5_{-7877909545657436057}
+  m_AudioClip: {fileID: 8300000, guid: db46f1a561de2b44abd68292cfddd88b, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-6542335184891257718
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Vampire9_{-6542335184891257718}
+  m_AudioClip: {fileID: 8300000, guid: f0ba3c19bfd72bc4585887253cd38efd, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5234016740814921201
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Vampire8_{-5234016740814921201}
+  m_AudioClip: {fileID: 8300000, guid: 5e05528f09e52da4ba4edc3cffacd350, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-3548937694503144135
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Vampire14_{-3548937694503144135}
+  m_AudioClip: {fileID: 8300000, guid: 4af16f856b486624d94c45b7ef843d42, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-3547888751972154820
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Vampire13_{-3547888751972154820}
+  m_AudioClip: {fileID: 8300000, guid: 229288671b8896544b0d5a7ff3a33134, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2961249560337142129
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Vampire10_{-2961249560337142129}
+  m_AudioClip: {fileID: 8300000, guid: 120cc0a8ee5ece646950b8e283b25e00, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2339067652865482858
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Vampire4_{-2339067652865482858}
+  m_AudioClip: {fileID: 8300000, guid: 71b7148d911f3474796c5e613263414b, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2280705711506495741
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Vampire16_{-2280705711506495741}
+  m_AudioClip: {fileID: 8300000, guid: 3407e3e849bfc6e488dfb68653191466, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-1609287695164536325
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Vampire18_{-1609287695164536325}
+  m_AudioClip: {fileID: 8300000, guid: bc97e900be60aec4884e320ea9a19ee7, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-682552535664204740
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Vampire6_{-682552535664204740}
+  m_AudioClip: {fileID: 8300000, guid: bf91105df0555e748b2787ed7704d630, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &557741099279681236
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Vampire11_{557741099279681236}
+  m_AudioClip: {fileID: 8300000, guid: 0ec12c474dc3f1647ba9eff3b297aedd, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1670804152554975630
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Vampire3_{1670804152554975630}
+  m_AudioClip: {fileID: 8300000, guid: 602d6b541ee8e7543804429b2b56dffe, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2343729872104250391
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Vampire15_{2343729872104250391}
+  m_AudioClip: {fileID: 8300000, guid: e9641ac0043d1d748bd4c15ef11daaf6, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2751574483920236446
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Vampire17_{2751574483920236446}
+  m_AudioClip: {fileID: 8300000, guid: 8c7d8e1f784a0924c8e04732391d4858, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5889954599906694649
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Vampire7_{5889954599906694649}
+  m_AudioClip: {fileID: 8300000, guid: 77df71cb6843226438a80988dedb718e, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Voix_C
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0.1
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0.3}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 6723406917943375911}
+  - {fileID: 8336401603406724070}
+  - {fileID: 1670804152554975630}
+  - {fileID: -2339067652865482858}
+  - {fileID: -7877909545657436057}
+  - {fileID: -682552535664204740}
+  - {fileID: 5889954599906694649}
+  - {fileID: -5234016740814921201}
+  - {fileID: -6542335184891257718}
+  - {fileID: -2961249560337142129}
+  - {fileID: 557741099279681236}
+  - {fileID: 8420336695777842726}
+  - {fileID: -3547888751972154820}
+  - {fileID: -3548937694503144135}
+  - {fileID: 2343729872104250391}
+  - {fileID: -2280705711506495741}
+  - {fileID: 2751574483920236446}
+  - {fileID: -1609287695164536325}
+  m_AvoidRepeatingLast: 2
+  m_PlaybackMode: 2
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 0
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 1
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &6723406917943375911
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Vampire1_{6723406917943375911}
+  m_AudioClip: {fileID: 8300000, guid: 6f1ca939cd21d5344b4e00095724d463, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &8336401603406724070
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Vampire2_{8336401603406724070}
+  m_AudioClip: {fileID: 8300000, guid: aa4a87683f26ed04895b5024df8fa3cd, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &8420336695777842726
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Vampire12_{8420336695777842726}
+  m_AudioClip: {fileID: 8300000, guid: 02788b14558d2f24b9e24dd8b0a9a665, type: 3}
+  m_Volume: 0
+  m_Enabled: 1

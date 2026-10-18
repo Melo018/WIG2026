@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-7877909545657436057
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GirlCrying5_{-7877909545657436057}
+  m_AudioClip: {fileID: 8300000, guid: ba27e19ec04c67a46a77fb1184ea9bbd, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-6542335184891257718
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GirlCrying9_{-6542335184891257718}
+  m_AudioClip: {fileID: 8300000, guid: 0f36d89382f65924191c631f4144f9a2, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5234016740814921201
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GirlCrying8_{-5234016740814921201}
+  m_AudioClip: {fileID: 8300000, guid: 9accba69397e64b4cb02ed24b3898d8a, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-3548937694503144135
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GirlCrying14_{-3548937694503144135}
+  m_AudioClip: {fileID: 8300000, guid: 01ea5047b0ee68944b2e021dfb1a3342, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-3547888751972154820
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GirlCrying13_{-3547888751972154820}
+  m_AudioClip: {fileID: 8300000, guid: f2e3698246b788449a5966059ae0fb82, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2961249560337142129
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GirlCrying10_{-2961249560337142129}
+  m_AudioClip: {fileID: 8300000, guid: 327503e58ecf39249ba16c794ba0ac40, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2339067652865482858
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GirlCrying4_{-2339067652865482858}
+  m_AudioClip: {fileID: 8300000, guid: dfd4c84c0b78c4d41a8492ea80c7b389, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-682552535664204740
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GirlCrying6_{-682552535664204740}
+  m_AudioClip: {fileID: 8300000, guid: 876911b96725e3643bd0a1656bd55455, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &557741099279681236
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GirlCrying11_{557741099279681236}
+  m_AudioClip: {fileID: 8300000, guid: 3a7ee717be0c2f34cac39a0e445781d9, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1670804152554975630
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GirlCrying3_{1670804152554975630}
+  m_AudioClip: {fileID: 8300000, guid: ff2da58b783fc5241b7a2b558a8995cb, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2343729872104250391
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GirlCrying15_{2343729872104250391}
+  m_AudioClip: {fileID: 8300000, guid: f9d76e9e5d658b54e8b6b2d8c6e2c1e0, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5889954599906694649
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GirlCrying7_{5889954599906694649}
+  m_AudioClip: {fileID: 8300000, guid: 57c58dd0ec9b6ef4c9881a33f020d95e, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Voix_D
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0.1
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0.3}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 6723406917943375911}
+  - {fileID: 8336401603406724070}
+  - {fileID: 1670804152554975630}
+  - {fileID: -2339067652865482858}
+  - {fileID: -7877909545657436057}
+  - {fileID: -682552535664204740}
+  - {fileID: 5889954599906694649}
+  - {fileID: -5234016740814921201}
+  - {fileID: -6542335184891257718}
+  - {fileID: -2961249560337142129}
+  - {fileID: 557741099279681236}
+  - {fileID: 8420336695777842726}
+  - {fileID: -3547888751972154820}
+  - {fileID: -3548937694503144135}
+  - {fileID: 2343729872104250391}
+  m_AvoidRepeatingLast: 2
+  m_PlaybackMode: 2
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 0
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 1
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &6723406917943375911
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GirlCrying1_{6723406917943375911}
+  m_AudioClip: {fileID: 8300000, guid: 92c692dc6a442d04696482f6dc4c77ff, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &8336401603406724070
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GirlCrying2_{8336401603406724070}
+  m_AudioClip: {fileID: 8300000, guid: 102b34dc25557a24e93e670d7ddba42d, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &8420336695777842726
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GirlCrying12_{8420336695777842726}
+  m_AudioClip: {fileID: 8300000, guid: 3b77cade32317a84fbf03c1fb75312fb, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
