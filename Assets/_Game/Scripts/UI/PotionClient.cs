@@ -1,13 +1,39 @@
+
+using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using TMPro;
 
 public class PotionClient : MonoBehaviour, IDropHandler
 {
-    [SerializeField] private AudioClip[] potionOnCharacterSounds;
+    [SerializeField] private AudioClip[] goodSounds;
+    [SerializeField] private AudioClip[] badSounds;
+    [SerializeField] private ClientMorality clientMorality;
+    [SerializeField] private ClientRewardService rewardService;
+    [SerializeField] private ClientGameManager gameManager;
+    [SerializeField] private TMP_Text dialogueText;
+    [SerializeField] private float reactionDuration = 2f;
+
+    private bool isReacting;
+
+    private void Awake()
+    {
+        if (clientMorality == null)
+            clientMorality = GetComponent<ClientMorality>();
+
+        if (rewardService == null)
+            rewardService = FindFirstObjectByType<ClientRewardService>();
+
+        if (gameManager == null)
+            gameManager = FindFirstObjectByType<ClientGameManager>();
+
+        if (dialogueText == null)
+            dialogueText = GetComponentInChildren<TMP_Text>(true);
+    }
 
     public void OnDrop(PointerEventData eventData)
     {
-        if (eventData.pointerDrag == null)
+        if (isReacting || eventData.pointerDrag == null)
             return;
 
         PotionDrag potionDrag = eventData.pointerDrag.GetComponent<PotionDrag>();
@@ -21,16 +47,71 @@ public class PotionClient : MonoBehaviour, IDropHandler
             return;
 
         PotionData potion = slot.StoredPotion;
-
-        ReceivePotion(potion);
         slot.RemovePotion();
 
-        if (AudioManager.Instance != null)
-        AudioManager.Instance.PlayRandomSFX(potionOnCharacterSounds);
+        StartCoroutine(ProcessPotion(potion));
     }
 
-    private void ReceivePotion(PotionData potion)
+    private IEnumerator ProcessPotion(PotionData potion)
     {
-        //Debug.Log("Le client reçoit une potion avec les tags : " + string.Join(", ", potion.Tags));
+        isReacting = true;
+
+        if (clientMorality == null)
+        {
+            Debug.LogWarning("ClientMorality manquant sur " + gameObject.name);
+            isReacting = false;
+            yield break;
+        }
+
+        string result = potion.RecipeFound ? potion.RecipeResult : "null";
+        bool goodResult = result == "parfait" || result == "bon";
+
+        if (rewardService != null)
+            rewardService.ApplyReward(result);
+
+        bool thresholdReached = clientMorality.ApplyPotionResult(result);
+
+        if (dialogueText != null)
+            dialogueText.text = goodResult ? "Merci !" : "Je ne reviendrai pas !";
+
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayRandomSFX(
+                goodResult ? goodSounds : badSounds
+            );
+        }
+
+        Debug.Log(
+            gameObject.name + " reçoit " + result +
+            ". Moralité : " + clientMorality.Morality
+        );
+
+        yield return new WaitForSeconds(reactionDuration);
+
+        if (thresholdReached)
+        {
+            bool saved = clientMorality.Morality == 3;
+
+            if (dialogueText != null)
+            {
+                dialogueText.text = saved
+                    ? "Tu m'as sauvé ! Merci !"
+                    : "Je suis perdu à jamais...";
+            }
+
+            yield return new WaitForSeconds(reactionDuration);
+
+            if (gameManager != null)
+                gameManager.ResolveCurrentClient(saved);
+            else
+                gameObject.SetActive(false);
+        }
+        else
+        {
+            if (gameManager != null)
+                gameManager.ReturnCurrentClientToQueue();
+        }
+
+        isReacting = false;
     }
 }
