@@ -5,15 +5,6 @@ TextureImporter:
   - first:
       213: -6797922082670353156
     second: tag_mouvement_0
-  - first:
-      213: 8140551909736111138
-    second: tag_mouvement_1
-  - first:
-      213: -4426338098886788376
-    second: tag_mouvement_2
-  - first:
-      213: 8936532855908883916
-    second: tag_mouvement_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -107,6 +98,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -114,10 +118,10 @@ TextureImporter:
       name: tag_mouvement_0
       rect:
         serializedVersion: 2
-        x: 108
-        y: 289
-        width: 103
-        height: 6
+        x: 0
+        y: 0
+        width: 290
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,72 +132,6 @@ TextureImporter:
       bones: []
       spriteID: cf466abf1ede8a1a0800000000000000
       internalID: -6797922082670353156
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tag_mouvement_1
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 170
-        width: 206
-        height: 147
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 22cd277d4dc09f070800000000000000
-      internalID: 8140551909736111138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tag_mouvement_2
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 241
-        width: 162
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8ea331863fc7292c0800000000000000
-      internalID: -4426338098886788376
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tag_mouvement_3
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 201
-        width: 74
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ccd5e00e841f40c70800000000000000
-      internalID: 8936532855908883916
       vertices: []
       indices: 
       edges: []
@@ -213,9 +151,6 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       tag_mouvement_0: -6797922082670353156
-      tag_mouvement_1: 8140551909736111138
-      tag_mouvement_2: -4426338098886788376
-      tag_mouvement_3: 8936532855908883916
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

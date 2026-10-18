@@ -9,6 +9,7 @@ public class ClientGameManager : MonoBehaviour
     {
         public string clientId;
         public GameObject clientObject;
+        public ClientVisual clientVisual;
     }
 
     [SerializeField] private ClientEntry[] clients;
@@ -30,7 +31,7 @@ public class ClientGameManager : MonoBehaviour
             if (entry == null || entry.clientObject == null)
                 continue;
 
-            entry.clientObject.SetActive(false);
+            SetClientVisible(entry, false);
             waitingClients.Enqueue(entry);
         }
 
@@ -42,8 +43,8 @@ public class ClientGameManager : MonoBehaviour
         if (gameEnded)
             return;
 
-        if (currentClient != null && currentClient.clientObject != null)
-            currentClient.clientObject.SetActive(false);
+        if (currentClient != null)
+            SetClientVisible(currentClient, false);
 
         currentClient = null;
 
@@ -55,7 +56,7 @@ public class ClientGameManager : MonoBehaviour
                 continue;
 
             currentClient = next;
-            currentClient.clientObject.SetActive(true);
+            SetClientVisible(currentClient, true);
 
             if (potionCreationController != null)
                 potionCreationController.SetClient(currentClient.clientId);
@@ -72,7 +73,7 @@ public class ClientGameManager : MonoBehaviour
         if (gameEnded || currentClient == null)
             return;
 
-        currentClient.clientObject.SetActive(false);
+        SetClientVisible(currentClient, false);
         waitingClients.Enqueue(currentClient);
 
         Debug.Log("Client remis en file : " + currentClient.clientId);
@@ -93,10 +94,18 @@ public class ClientGameManager : MonoBehaviour
 
         Debug.Log("Clients sauvés : " + savedClients + " | Clients perdus : " + lostClients);
 
-        currentClient.clientObject.SetActive(false);
+        SetClientVisible(currentClient, false);
         currentClient = null;
 
         ShowNextClient();
+    }
+
+    private void SetClientVisible(ClientEntry entry, bool visible)
+    {
+        if (entry.clientVisual != null)
+            entry.clientVisual.SetVisible(visible);
+        if (entry.clientObject != null)
+            entry.clientObject.SetActive(visible);
     }
 
     private void EndGame()
