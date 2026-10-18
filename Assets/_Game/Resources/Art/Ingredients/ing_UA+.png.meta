@@ -1,10 +1,85 @@
 fileFormatVersion: 2
-guid: ae286a526f75f9a4aa02f50e28d18a74
+guid: b8a51a7274fc3464e94351d1f1ea1c99
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9095717837082945937
-    second: Capsule
+      213: -8658853805571388612
+    second: UA_cooked - Copie_0
+  - first:
+      213: -1664331461797378977
+    second: UA_cooked - Copie_1
+  - first:
+      213: -1136083754860391099
+    second: UA_cooked - Copie_2
+  - first:
+      213: -2456704301676336996
+    second: UA_cooked - Copie_3
+  - first:
+      213: 7047579747974356652
+    second: UA_cooked - Copie_4
+  - first:
+      213: -3410050887007398792
+    second: UA_cooked - Copie_5
+  - first:
+      213: 8041298555618202377
+    second: UA_cooked - Copie_6
+  - first:
+      213: -1104018314780902521
+    second: UA_cooked - Copie_7
+  - first:
+      213: -3918877233244567777
+    second: UA_cooked - Copie_8
+  - first:
+      213: 3844119147836090713
+    second: UA_cooked - Copie_9
+  - first:
+      213: -5752257527641910620
+    second: UA_cooked - Copie_10
+  - first:
+      213: 2835123717804141554
+    second: UA_cooked - Copie_11
+  - first:
+      213: -5156832061090091165
+    second: UA_cooked - Copie_12
+  - first:
+      213: -3368516298213165046
+    second: UA_cooked - Copie_13
+  - first:
+      213: 6786089249861378664
+    second: UA_cooked - Copie_14
+  - first:
+      213: 5414816888783522330
+    second: UA_cooked - Copie_15
+  - first:
+      213: 4029422783893281827
+    second: UA_cooked - Copie_16
+  - first:
+      213: -4577646240304458845
+    second: UA_cooked - Copie_17
+  - first:
+      213: -3455553154484396387
+    second: UA_cooked - Copie_18
+  - first:
+      213: 4489741762564886422
+    second: UA_cooked - Copie_19
+  - first:
+      213: 3841186414465358985
+    second: UA_cooked - Copie_20
+  - first:
+      213: 4012098473921203026
+    second: UA_cooked - Copie_21
+  - first:
+      213: 2973650718630014891
+    second: UA_cooked - Copie_22
+  - first:
+      213: -1048982592940369973
+    second: UA_cooked - Copie_23
+  - first:
+      213: 1334726477742268298
+    second: UA_cooked - Copie_24
+  - first:
+      213: 6737711912826672842
+    second: UA_cooked - Copie_25
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,13 +126,13 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationMethod: 0
-  spriteTessellationDetail: 0
+  spriteTessellationDetail: -1
   spriteGeometrySubdivision: -1
   textureType: 8
   textureShape: 1
@@ -70,7 +145,7 @@ TextureImporter:
   ignorePngGamma: 0
   applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
@@ -98,128 +173,584 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Capsule
+      name: UA_cooked - Copie_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 256
-        height: 512
+        x: 1
+        y: 196
+        width: 1004
+        height: 688
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline:
-      - - {x: -33, y: 256}
-        - {x: -95, y: 223}
-        - {x: -128, y: 161}
-        - {x: -128, y: -161}
-        - {x: -95, y: -223}
-        - {x: -33, y: -256}
-        - {x: 33, y: -256}
-        - {x: 95, y: -223}
-        - {x: 128, y: -161}
-        - {x: 128, y: 161}
-        - {x: 95, y: 223}
-        - {x: 33, y: 256}
-      physicsShape:
-      - - {x: 0, y: 256}
-        - {x: -39, y: 249}
-        - {x: -75, y: 231}
-        - {x: -103, y: 203}
-        - {x: -121, y: 167}
-        - {x: -128, y: 128}
-        - {x: -128, y: -128}
-        - {x: -121, y: -167}
-        - {x: -103, y: -203}
-        - {x: -75, y: -231}
-        - {x: -39, y: -249}
-        - {x: 0, y: -256}
-        - {x: 39, y: -249}
-        - {x: 75, y: -231}
-        - {x: 103, y: -203}
-        - {x: 121, y: -167}
-        - {x: 128, y: -128}
-        - {x: 128, y: 128}
-        - {x: 121, y: 167}
-        - {x: 103, y: 203}
-        - {x: 75, y: 231}
-        - {x: 39, y: 249}
-      tessellationDetail: 0
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
       bones: []
-      spriteID: f669c7f71d485c180800000000000000
-      internalID: -9095717837082945937
+      spriteID: c3bc0e4275295d780800000000000000
+      internalID: -8658853805571388612
       vertices: []
       indices: 
       edges: []
       weights: []
-    outline:
-    - - {x: -33, y: 256}
-      - {x: -95, y: 223}
-      - {x: -128, y: 161}
-      - {x: -128, y: -161}
-      - {x: -95, y: -223}
-      - {x: -33, y: -256}
-      - {x: 33, y: -256}
-      - {x: 95, y: -223}
-      - {x: 128, y: -161}
-      - {x: 128, y: 161}
-      - {x: 95, y: 223}
-      - {x: 33, y: 256}
+    - serializedVersion: 2
+      name: UA_cooked - Copie_1
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 873
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f548f0f7a5b17e8e0800000000000000
+      internalID: -1664331461797378977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UA_cooked - Copie_2
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 671
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545547c18d1db30f0800000000000000
+      internalID: -1136083754860391099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UA_cooked - Copie_3
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 625
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98686c247808edd0800000000000000
+      internalID: -2456704301676336996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UA_cooked - Copie_4
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 634
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae9f3ce0780ec160800000000000000
+      internalID: 7047579747974356652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UA_cooked - Copie_5
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 636
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8741be519c01da0d0800000000000000
+      internalID: -3410050887007398792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UA_cooked - Copie_6
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 617
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9031c748e6e689f60800000000000000
+      internalID: 8041298555618202377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UA_cooked - Copie_7
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 626
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b75f9213dbda0f0800000000000000
+      internalID: -1104018314780902521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UA_cooked - Copie_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 610
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1787126be95d99c0800000000000000
+      internalID: -3918877233244567777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UA_cooked - Copie_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 614
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9592c097ffd095530800000000000000
+      internalID: 3844119147836090713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UA_cooked - Copie_10
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 608
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a256506140eb20b0800000000000000
+      internalID: -5752257527641910620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UA_cooked - Copie_11
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 614
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb200e0002685720800000000000000
+      internalID: 2835123717804141554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UA_cooked - Copie_12
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 599
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f216000904f68b0800000000000000
+      internalID: -5156832061090091165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UA_cooked - Copie_13
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 596
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08f3e02640a041d0800000000000000
+      internalID: -3368516298213165046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UA_cooked - Copie_14
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 586
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862a510f7380d2e50800000000000000
+      internalID: 6786089249861378664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UA_cooked - Copie_15
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 585
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a4abb754b452b40800000000000000
+      internalID: 5414816888783522330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UA_cooked - Copie_16
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 581
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c13d35ca26be730800000000000000
+      internalID: 4029422783893281827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UA_cooked - Copie_17
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 587
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a310437ffee870c0800000000000000
+      internalID: -4577646240304458845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UA_cooked - Copie_18
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 559
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e1a7cd6b86b00d0800000000000000
+      internalID: -3455553154484396387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UA_cooked - Copie_19
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 579
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f8aea6854ce4e30800000000000000
+      internalID: 4489741762564886422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UA_cooked - Copie_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 544
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c934641b2ae4530800000000000000
+      internalID: 3841186414465358985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UA_cooked - Copie_21
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 551
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25bc5f51e46dda730800000000000000
+      internalID: 4012098473921203026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UA_cooked - Copie_22
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 534
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafe602d297844920800000000000000
+      internalID: 2973650718630014891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UA_cooked - Copie_23
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 520
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc79834b3e34171f0800000000000000
+      internalID: -1048982592940369973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UA_cooked - Copie_24
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 196
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fd22ae8a6e58210800000000000000
+      internalID: 1334726477742268298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UA_cooked - Copie_25
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 200
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac693fa6949218d50800000000000000
+      internalID: 6737711912826672842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
     customData: 
-    physicsShape:
-    - - {x: 0, y: 256}
-      - {x: -39, y: 249}
-      - {x: -75, y: 231}
-      - {x: -103, y: 203}
-      - {x: -121, y: 167}
-      - {x: -128, y: 128}
-      - {x: -128, y: -128}
-      - {x: -121, y: -167}
-      - {x: -103, y: -203}
-      - {x: -75, y: -231}
-      - {x: -39, y: -249}
-      - {x: 0, y: -256}
-      - {x: 39, y: -249}
-      - {x: 75, y: -231}
-      - {x: 103, y: -203}
-      - {x: 121, y: -167}
-      - {x: 128, y: -128}
-      - {x: 128, y: 128}
-      - {x: 121, y: 167}
-      - {x: 103, y: 203}
-      - {x: 75, y: 231}
-      - {x: 39, y: 249}
+    physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
@@ -231,7 +762,32 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Capsule: -9095717837082945937
+      UA_cooked - Copie_0: -8658853805571388612
+      UA_cooked - Copie_1: -1664331461797378977
+      UA_cooked - Copie_10: -5752257527641910620
+      UA_cooked - Copie_11: 2835123717804141554
+      UA_cooked - Copie_12: -5156832061090091165
+      UA_cooked - Copie_13: -3368516298213165046
+      UA_cooked - Copie_14: 6786089249861378664
+      UA_cooked - Copie_15: 5414816888783522330
+      UA_cooked - Copie_16: 4029422783893281827
+      UA_cooked - Copie_17: -4577646240304458845
+      UA_cooked - Copie_18: -3455553154484396387
+      UA_cooked - Copie_19: 4489741762564886422
+      UA_cooked - Copie_2: -1136083754860391099
+      UA_cooked - Copie_20: 3841186414465358985
+      UA_cooked - Copie_21: 4012098473921203026
+      UA_cooked - Copie_22: 2973650718630014891
+      UA_cooked - Copie_23: -1048982592940369973
+      UA_cooked - Copie_24: 1334726477742268298
+      UA_cooked - Copie_25: 6737711912826672842
+      UA_cooked - Copie_3: -2456704301676336996
+      UA_cooked - Copie_4: 7047579747974356652
+      UA_cooked - Copie_5: -3410050887007398792
+      UA_cooked - Copie_6: 8041298555618202377
+      UA_cooked - Copie_7: -1104018314780902521
+      UA_cooked - Copie_8: -3918877233244567777
+      UA_cooked - Copie_9: 3844119147836090713
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

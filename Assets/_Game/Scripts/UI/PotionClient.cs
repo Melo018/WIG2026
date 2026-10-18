@@ -5,14 +5,6 @@ using UnityEngine.EventSystems;
 
 public class PotionClient : MonoBehaviour, IDropHandler
 {
-    [Header("Dialogues")]
-    [SerializeField] private DialogueLine[] firstVisitLines;
-    [SerializeField] private DialogueLine[] returnVisitLines;
-    [SerializeField] private DialogueLine[] goodReactionLines;
-    [SerializeField] private DialogueLine[] badReactionLines;
-    [SerializeField] private DialogueLine[] savedLines;
-    [SerializeField] private DialogueLine[] lostLines;
-
     [Header("Audio")]
     [SerializeField] private AudioClip[] goodSounds;
     [SerializeField] private AudioClip[] badSounds;
@@ -21,7 +13,6 @@ public class PotionClient : MonoBehaviour, IDropHandler
     [SerializeField] private ClientMorality clientMorality;
     [SerializeField] private ClientRewardService rewardService;
     [SerializeField] private ClientGameManager gameManager;
-    [SerializeField] private ClientDialogue clientDialogue;
 
     private bool isReacting;
     private bool hasVisitedBefore;
@@ -36,30 +27,6 @@ public class PotionClient : MonoBehaviour, IDropHandler
 
         if (gameManager == null)
             gameManager = FindFirstObjectByType<ClientGameManager>();
-
-        if (clientDialogue == null)
-            clientDialogue = GetComponentInChildren<ClientDialogue>(true);
-    }
-
-    private void OnEnable()
-    {
-        if (isReacting || clientDialogue == null)
-            return;
-
-        StartCoroutine(ShowVisitDialogue());
-    }
-
-    private IEnumerator ShowVisitDialogue()
-    {
-        isReacting = true;
-
-        DialogueLine[] lines = hasVisitedBefore
-            ? returnVisitLines
-            : firstVisitLines;
-
-        yield return StartCoroutine(clientDialogue.PlayLines(lines));
-
-        isReacting = false;
     }
 
     public void OnDrop(PointerEventData eventData)
@@ -109,23 +76,11 @@ public class PotionClient : MonoBehaviour, IDropHandler
             );
         }
 
-        DialogueLine[] reactionLines = goodResult
-            ? goodReactionLines
-            : badReactionLines;
-
-        if (clientDialogue != null)
-            yield return StartCoroutine(clientDialogue.PlayLines(reactionLines));
-
         hasVisitedBefore = true;
 
         if (thresholdReached)
         {
             bool saved = clientMorality.Morality == 3;
-
-            DialogueLine[] endingLines = saved ? savedLines : lostLines;
-
-            if (clientDialogue != null)
-                yield return StartCoroutine(clientDialogue.PlayLines(endingLines));
 
             if (gameManager != null)
                 gameManager.ResolveCurrentClient(saved);
@@ -139,5 +94,6 @@ public class PotionClient : MonoBehaviour, IDropHandler
         }
 
         isReacting = false;
+        yield break;
     }
 }
