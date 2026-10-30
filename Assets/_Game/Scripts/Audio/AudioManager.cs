@@ -9,12 +9,19 @@ public class AudioManager : MonoBehaviour
     [Header("Audio Sources")]
     [SerializeField] private AudioSource musicSource;
     [SerializeField] private AudioSource sfxSource;
+
     [Header("Volume")]
     [Range(0f, 1f)]
     [SerializeField] private float musicVolume = 0.3f;
 
     [Range(0f, 1f)]
     [SerializeField] private float sfxVolume = 1f;
+
+    private const string MusicVolumeKey = "MusicVolume";
+    private const string SFXVolumeKey = "SFXVolume";
+
+    public float MusicVolume => musicVolume;
+    public float SFXVolume => sfxVolume;
 
     private void Awake()
     {
@@ -26,6 +33,34 @@ public class AudioManager : MonoBehaviour
 
         Instance = this;
         DontDestroyOnLoad(gameObject);
+
+        musicVolume = PlayerPrefs.GetFloat(MusicVolumeKey, musicVolume);
+        sfxVolume = PlayerPrefs.GetFloat(SFXVolumeKey, sfxVolume);
+
+        ApplyMusicVolume();
+    }
+
+    public void SetMusicVolume(float volume)
+    {
+        musicVolume = Mathf.Clamp01(volume);
+        ApplyMusicVolume();
+
+        PlayerPrefs.SetFloat(MusicVolumeKey, musicVolume);
+        PlayerPrefs.Save();
+    }
+
+    public void SetSFXVolume(float volume)
+    {
+        sfxVolume = Mathf.Clamp01(volume);
+
+        PlayerPrefs.SetFloat(SFXVolumeKey, sfxVolume);
+        PlayerPrefs.Save();
+    }
+
+    private void ApplyMusicVolume()
+    {
+        if (musicSource != null)
+            musicSource.volume = musicVolume;
     }
 
     public void PlaySFX(AudioClip clip)
@@ -55,8 +90,8 @@ public class AudioManager : MonoBehaviour
 
         musicSource.clip = clip;
         musicSource.loop = true;
+        ApplyMusicVolume();
         musicSource.Play();
-        musicSource.volume = musicVolume;
     }
 
     public void StopMusic()

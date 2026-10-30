@@ -15,7 +15,6 @@ public class PotionClient : MonoBehaviour, IDropHandler
     [SerializeField] private ClientGameManager gameManager;
 
     private bool isReacting;
-    private bool hasVisitedBefore;
 
     private void Awake()
     {
@@ -76,7 +75,7 @@ public class PotionClient : MonoBehaviour, IDropHandler
             );
         }
 
-        hasVisitedBefore = true;
+        Debug.Log("Potion reçue : " + result);
 
         if (thresholdReached)
         {
@@ -87,13 +86,17 @@ public class PotionClient : MonoBehaviour, IDropHandler
             else
                 gameObject.SetActive(false);
         }
-        else
+        else if (gameManager != null)
         {
-            if (gameManager != null)
-                gameManager.ReturnCurrentClientToQueue();
+            gameManager.ReturnCurrentClientToQueue();
         }
 
         isReacting = false;
-        yield break;
+        yield return null;
+    }
+
+    public void ShowMeetingDialogue()
+    {
+        Debug.Log("Dialogue de rencontre temporairement désactivé pour " + gameObject.name);
     }
 }
