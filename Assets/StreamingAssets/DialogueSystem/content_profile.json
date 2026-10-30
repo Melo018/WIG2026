@@ -1,0 +1,10 @@
+{
+  "profileId": "demo",
+  "versionMode": "demo",
+  "allowedCharacterIds": [
+    "test_client_01"
+  ],
+  "allowedDialogueIds": [],
+  "endDemoAfterFirstPotionReaction": true,
+  "demoEndingDialogueId": "demo_ending"
+}

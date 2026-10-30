@@ -10,6 +10,22 @@ public class ClientDialogue : MonoBehaviour
 
     private int currentIndex;
 
+    public void StartDialogue()
+    {
+        currentIndex = 0;
+
+        if (phrases == null || phrases.Length == 0 || dialogueText == null)
+        {
+            HideDialogue();
+            return;
+        }
+
+        if (dialogueBackground != null)
+            dialogueBackground.SetActive(true);
+
+        ShowNextPhrase();
+    }
+
     public void ShowNextPhrase()
     {
         if (phrases == null || phrases.Length == 0 || dialogueText == null)

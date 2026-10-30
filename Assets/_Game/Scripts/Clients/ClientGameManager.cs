@@ -15,6 +15,7 @@ public class ClientGameManager : MonoBehaviour
     [SerializeField] private ClientEntry[] clients;
     [SerializeField] private PotionCreationController potionCreationController;
     [SerializeField] private int victoryThreshold = 3;
+    [SerializeField] private ClientDialogue clientDialogue;
 
     private readonly Queue<ClientEntry> waitingClients = new Queue<ClientEntry>();
     private ClientEntry currentClient;
@@ -61,7 +62,11 @@ public class ClientGameManager : MonoBehaviour
             if (potionCreationController != null)
                 potionCreationController.SetClient(currentClient.clientId);
 
-            Debug.Log("Client actif : " + currentClient.clientId);
+            PotionClient potionClient = currentClient.clientObject.GetComponent<PotionClient>();
+
+            if (potionClient != null)
+                potionClient.ShowMeetingDialogue();
+
             return;
         }
 
@@ -76,8 +81,6 @@ public class ClientGameManager : MonoBehaviour
         SetClientVisible(currentClient, false);
         waitingClients.Enqueue(currentClient);
 
-        Debug.Log("Client remis en file : " + currentClient.clientId);
-
         currentClient = null;
         ShowNextClient();
     }
@@ -91,8 +94,6 @@ public class ClientGameManager : MonoBehaviour
             savedClients++;
         else
             lostClients++;
-
-        Debug.Log("Clients sauvés : " + savedClients + " | Clients perdus : " + lostClients);
 
         SetClientVisible(currentClient, false);
         currentClient = null;
@@ -113,9 +114,5 @@ public class ClientGameManager : MonoBehaviour
         gameEnded = true;
 
         bool victory = savedClients >= victoryThreshold;
-
-        Debug.Log(victory
-            ? "VICTOIRE — au moins " + victoryThreshold + " clients sauvés."
-            : "DÉFAITE — seulement " + savedClients + " clients sauvés.");
     }
 }
